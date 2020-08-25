@@ -1,0 +1,1 @@
+{"version":3,"sources":["app1.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"app1.b38c795b.css","sourceRoot":"..\\src","sourcesContent":["#app1 {\r\nborder: 1px solid #000;\r\n}\r\n#app1 .output {\r\nheight: 50vh;\r\nwidth: 50vw;\r\n}\r\n"]}

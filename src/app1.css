@@ -1,0 +1,20 @@
+#app1 {
+    border: 1px solid red;
+}
+#app1 .output {
+    display: flex;
+    height: 20vh;
+    width: 50vw;
+    justify-content: center;
+    margin-top: 10vh;
+}
+#app1 .num {
+    display: flex;
+    justify-content: center;
+}
+#app1 .num button {
+    height: 5vh;
+    width: 8vw;
+    margin-left: 2vw;
+    margin-top: -10vh;
+}

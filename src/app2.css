@@ -1,0 +1,19 @@
+#app2 {
+    box-sizing: border-box;
+}
+#app2 .tab-bar {
+    display: flex;
+}
+#app2 .tab-bar > li {
+    width: 50%;
+    border: 1px solid #ff00ff;
+}
+#app2 .tab-bar > li.bgc {
+    background-color: cadetblue;
+}
+#app2 .tab-content li {
+    display: none;
+}
+#app2 .tab-content li.active {
+    display: block;
+}

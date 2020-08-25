@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,*::after {
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+body {
+    overflow: hidden;
+}
+body> .page {
+    display: flex;
+    flex-wrap: wrap;
+}
+body > .page section {
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid red;
+}
+#app1 {
+    border: 1px solid red;
+}
+#app1 .output {
+    display: flex;
+    height: 20vh;
+    width: 50vw;
+    justify-content: center;
+    margin-top: 10vh;
+}
+#app1 .num {
+    display: flex;
+    justify-content: center;
+}
+#app1 .num button {
+    height: 5vh;
+    width: 8vw;
+    margin-left: 2vw;
+    margin-top: -10vh;
+}
+
+#app2 {
+    box-sizing: border-box;
+}
+#app2 .tab-bar {
+    display: flex;
+}
+#app2 .tab-bar > li {
+    width: 50%;
+    border: 1px solid #ff00ff;
+}
+#app2 .tab-bar > li.bgc {
+    background-color: cadetblue;
+}
+#app2 .tab-content li {
+    display: none;
+}
+#app2 .tab-content li.active {
+    display: block;
+}
+#app3 .wrap {
+    height: 20vh;
+    width: 20vh;
+    border: 1px solid blue;
+    margin-left: 8vw;
+    margin-top: 8vw;
+    transition: transform 1s;
+}
+#app3 .wrap.circle {
+    transform: translateX(18vw);
+}
+#app4 > .wrap {
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid rgb(47, 0, 255);
+    margin-left: 3vw;
+    margin-top: 3vw;
+    border-radius: 50%;
+}
+#app4 > .wrap.active {
+    animation: move 1s infinite alternate linear;
+}
+@keyframes move {
+    0% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
